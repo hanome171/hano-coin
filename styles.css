@@ -134,4 +134,28 @@ footer {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    flex: 1 1 100%; /* Atur lebar item sesuai kebutuhan */
+}
+@media (min-width: 768px) {
+    .item {
+        flex: 1; /* Atur kembali lebar item untuk layar lebih besar */
+    }
+}
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
