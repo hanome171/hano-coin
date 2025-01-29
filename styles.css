@@ -91,6 +91,21 @@ nav {
     transform: scale(1.1);
 }
 
+/* Contoh media query untuk layar kecil (HP) */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 /* Hero Section */
 .hero {
     padding: 50px 20px;
